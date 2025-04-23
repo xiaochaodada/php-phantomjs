@@ -201,6 +201,21 @@ interface RequestInterface
     public function getCookies();
 
     /**
+     * Add cookie.
+     *
+     * @access public
+     * @param  string                                 $name
+     * @param  mixed                                  $value
+     * @param  string                                 $path
+     * @param  string                                 $domain
+     * @param  bool                                   $httpOnly (default: true)
+     * @param  bool                                   $secure   (default: false)
+     * @param  int                                    $expires  (default: null)
+     * @return \JonnyW\PhantomJs\Http\AbstractRequest
+     */
+    public function addCookie($name, $value, $path, $domain, $httpOnly = true, $secure = false, $expires = null);
+
+    /**
      * Set body styles
      *
      * @access public
