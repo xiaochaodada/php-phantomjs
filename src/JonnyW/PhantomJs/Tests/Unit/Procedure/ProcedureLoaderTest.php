@@ -8,7 +8,7 @@
  */
 namespace JonnyW\PhantomJs\Tests\Unit\Procedure;
 
-use Twig_Environment;
+use Twig\Environment;
 use Twig_Loader_String;
 use Symfony\Component\Config\FileLocatorInterface;
 use JonnyW\PhantomJs\Engine;
@@ -247,7 +247,7 @@ class ProcedureLoaderTest extends \PHPUnit_Framework_TestCase
      */
     protected function getRenderer()
     {
-        $twig = new Twig_Environment(
+        $twig = new Twig\Environment(
             new Twig_Loader_String()
         );
 
