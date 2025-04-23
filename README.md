@@ -1,7 +1,7 @@
 PHP PhantomJS
 =============
 
-兼容PHP hyper3.1 的PhantomJS，支持Cookie等功能 PHP >=8.1
+兼容PHP hyperf3.1 的PhantomJS，支持Cookie等功能 PHP >=8.1
 
 PhantomJS支持docker alpine镜像
 
