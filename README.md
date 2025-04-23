@@ -3,6 +3,8 @@ PHP PhantomJS
 
 兼容PHP hyper3.1 的PhantomJS，支持Cookie等功能 PHP >=8.1
 
+PhantomJS支持docker alpine镜像
+
 
 PHP PhantomJS is a flexible PHP library to load pages through the PhantomJS 
 headless browser and return the page response. It is handy for testing

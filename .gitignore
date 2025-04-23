@@ -4,4 +4,4 @@ composer.lock
 vendor/
 bin/phpunit
 bin/phantomjs
-./.idea
+.idea
